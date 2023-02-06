@@ -65,3 +65,14 @@ body {
 .sidebar-option:nth-child(7) {
   margin-top: 35px;
 }
+
+.sidebar-option:hover,
+.sidebar-option:hover svg,
+.logo:hover svg {
+  cursor: pointer;
+  fill: #000000;
+  color: #fdf4ff;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  text-shadow: 1px 1px 2px #730606;
+}
