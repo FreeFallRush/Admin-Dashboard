@@ -325,3 +325,93 @@ button:hover {
   fill: #730606;
   transition: all 0.2s ease-in-out;
 }
+
+@media all and (max-width: 1080px) {
+  .sidebar {
+    width: 90px;
+    justify-items: center;
+    grid-template-rows: 0.2fr 1.4fr 3fr;
+  }
+
+  .logo {
+    align-self: center;
+  }
+
+  .sidebar-option .hidden,
+  .logo .hidden {
+    display: none;
+  }
+
+  .sidebar-option svg,
+  .logo svg {
+    width: 40px;
+  }
+
+  .header-container {
+    padding: 5px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  input {
+    width: 89%;
+  }
+
+  .second-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .buttons-profile {
+    justify-items: center;
+    align-items: center;
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .left-side {
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .fun-facts {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, minmax(70px, 1fr));
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .funfact-card {
+    width: 100%;
+  }
+
+  .announcements > h3,
+  .trends > h3,
+  .left-side > h3 {
+    text-align: center;
+  }
+
+  .user-profile {
+    padding: 10px;
+  }
+
+  .h1 {
+    font-size: 1rem;
+  }
+
+  .announcements-box,
+  .trending-box {
+    min-width: 100%;
+  }
+}
