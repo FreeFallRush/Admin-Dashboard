@@ -345,6 +345,7 @@ button:hover {
   .sidebar-option svg,
   .logo svg {
     width: 40px;
+    fill: #000000;
   }
 
   .header-container {
